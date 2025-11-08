@@ -57,7 +57,7 @@
 
 .cover {
   position: relative;
-  padding: 165px 50px 50px 50px;
+  padding: 165px 50px 80px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,8 +114,8 @@
   z-index: 1;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
-  gap: 85px;
+  align-items: center;
+  gap: 109px;
   padding: 118px 0 0;
 }
 
@@ -229,7 +229,7 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0px 24px;
+  padding: 30px 30px;
 }
 
 .about__column {
@@ -255,7 +255,7 @@
 }
 
 .about__title {
-  padding: 100px 0 104px;
+  padding: 105px 10px 104px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -275,7 +275,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 82px;
+  padding: 155px 50px 82px;
 }
 
 .footer__menu-list {
